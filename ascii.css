@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccccff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+fieldset {
+  border: 5px solid black;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 400px;
+}
